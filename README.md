@@ -1,2 +1,21 @@
-# pip-package-template
-Minimal template for an open source Python package.
+# Convert plain text to datetime
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Eric-Mendes/textime/blob/main/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+> Currently only supporting English.
+
+Convert a date written as text in a certain way to a datetime object.
+
+## How to use it :computer:
+First you install it in you environment like this
+```bash
+pip install textime
+```
+Then you can start using it already! Pass any string to the `text` parameter containing a date in the format: "`DAY` of `MONTH` of `YEAR`" where `YEAR` must be written out completely, like "first of May of two thousand and twenty one" or "second of August of one thousand nine hundred and ninety nine".
+```python
+from datetime import datetime
+
+from textime import textime
+
+
+text_to_dt: datetime = textime.to_datetime(text="Fifteenth of July of two thousand and eight")
+```
