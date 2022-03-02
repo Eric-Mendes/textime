@@ -21,3 +21,6 @@ from textime import textime
 
 text_to_dt: datetime = textime.to_datetime(text="Fifteenth of July of two thousand and eight")
 ```
+
+## Contribution :pencil:
+This project is open source. Contributions are welcome and appreciated. Please check our [guide for contributing](https://github.com/Eric-Mendes/textime/blob/main/CONTRIBUTING.md) and our [code of conduct](https://github.com/Eric-Mendes/textime/blob/main/CODE_OF_CONDUCT.md) as well.
