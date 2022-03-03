@@ -5,7 +5,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 > Currently only supporting English.
 
-Convert a date written as text in a certain way to a datetime object.
+Python library that converts a date written as plain text to a datetime object.
 
 ## How to use it :computer:
 First you install it in you environment like this
